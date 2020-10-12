@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link
+    rel="apple-touch-icon-precomposed"
+    sizes="144x144"
+    href="img/ico/apple-touch-icon-144-precomposed.png"
+  />
+  <link
+    rel="apple-touch-icon-precomposed"
+    sizes="114x114"
+    href="img/ico/apple-touch-icon-114-precomposed.png"
+  />
+  <link
+    rel="apple-touch-icon-precomposed"
+    sizes="72x72"
+    href="img/ico/apple-touch-icon-72-precomposed.png"
+  />
+  <link
+    rel="apple-touch-icon-precomposed"
+    href="img/ico/apple-touch-icon-57-precomposed.png"
+  />
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div id="home">
+        <div class="header">
+            <div class="header-top">
+                <div class="grid">
+                    <div class="header-top-content">
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <a href="" class="contact-item__link">
+                                    <i class="fa fa-phone"></i>
+                                    <span class="contact-item__info">+2 95 01 88 821</span>
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="" class="contact-item__link">
+                                    <i class="fa fa-envelope"></i>
+                                    <span class="contact-item__info"> info@domain.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="socials">
+                            <li class="social">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="grid header-middle-content">
+                    <div class="menu-left">
+                        <div class="header-logo">
+                            <a href="header-logo__link">
+                                <img  class='header-logo__img' src="./assets/img/home/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header-buttons">
+                            <div class="header-btn-group" onclick="dropDown(event)">
+                                <div class="header-btn">
+                                    <span class="header-btn__name">USA</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="">Canada Dollar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Collar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header-btn-group">
+                                <div class="header-btn" onclick="dropDown(event)">
+                                    <span class="header-btn__name">DOLLAR</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </div>   
+                                <div class="sub-menu" >
+                                    <ul>
+                                        <li>
+                                            <a href="">Canada Dollar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Uk</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-right">
+                        <nav class="header-nav">
+                            <ul class="header-menu">
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-user"></i>
+                                        Account
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-star"></i>
+                                        Wishlist
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-crosshairs"></i>
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="./page/cart.html" class="header-menu-item__link">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Cart
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-lock"></i>
+                                        Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="grid header-bottom-content">
+                    <div class="header-main-menu">
+                        <nav class="header-nav">
+                            <ul class="header-menu">
+                                <li class="header-menu-item active">
+                                    <a href="" class="header-menu-item__link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Shop
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chi tiết sản phầm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Mua hàng</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Giỏ hàng</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Giỏ hàng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Block
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chi tiết sản phầm</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        404
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-search">
+                        <div class="header-search__input-group">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="header-search__btn">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="grid">
+                <div class="row">
+                    <div class="l-12 m-12 c-12 slider-container">
+                        <div id="slider">
+                            <div class="slider-with-carousel">
+                                <div class="slider-with-ctr">
+                                    <div class="list-slider-box">
+                                        <div class="list-slide">
+                                        </div>   
+                                    </div>
+                                    <div class="slider-btn" >
+                                        <div class="prev"><span class="ti-angle-left"></span></div>
+                                        <div class="next"><span class="ti-angle-right"></span></div>
+                                    </div>  
+                                </div>
+                                <ul class="option-list">
+                                    <li data-id="0" onclick="changeSlide(event)" class="option selected"></li>
+                                    <li data-id="1" onclick="changeSlide(event)" class="option"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-3 m-3 c-12">
+                        <div class="category">
+                            <h1 onclick="postProduct()" class="main__heading">Category</h1>
+                            <ul class="category__list">
+                                
+                            </ul>
+                            <a href="#" class="hot-item">
+                                <img src="https://cdn5.vectorstock.com/i/1000x1000/18/79/pets-poster-placard-domestic-animals-cats-dogs-vector-26551879.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-9 m-9 c-12 main__menu-left">
+                        <div class="feature-products">
+                            <h1 class="main__heading">New Product</h1>
+                            <div class="feature-products__search">
+                                <input type="text" class="feature-products__input">
+                                <button class=" btn feature-products__btn" onclick="searchProduct(event)">Tim kiem</button>
+                            </div>
+                            <div class="feature-products__ctl">
+                                <button onclick="sort(event,{sortBy:'price',sortVal:1})" class="btn filterPrice">Loc theo gia</button>
+                                <button onclick="sort(event,{sortBy:'name',sortVal:1})" class="btn filterName">Loc theo ten</button>
+                            </div>
+                            <div class="row no-gutter products-content">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="hot-products">
+                            <h1 class="main__heading">Hot Product</h1>
+                            <div class="row no-gutter products-content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer__content">
+              <!-- tạo ra để padding -->
+              <div class="row sm-gutter">
+                <div class="col l-2-4 m-4 c-6">
+                  <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                  <ul class="footer-list">
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Shopee Blog</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Shopee Mail</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Hướng Dẫn Bán Hàng</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                  <h3 class="footer__heading">vỀ SHOPPET</h3>
+                  <ul class="footer-list">
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Shoppet Mail</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">Hướng Dẫn Bán Hàng</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6 hide-on-mobile-tablet">
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                  <h3 class="footer__heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
+                  <ul class="footer-list">
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">
+                        <i class="fab fa-facebook footer-item__icon"></i>
+                        Facesbook
+                      </a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">
+                        <i class="fab fa-instagram footer-item__icon"></i>
+                        Instagram
+                      </a>
+                    </li>
+                    <li class="footer-item">
+                      <a href="#" class="footer-item__link">
+                        <i class="fab fa-linkedin footer-item__icon"></i>
+                        LinkedIn
+                      </a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6 tl-mrt20">
+                  <h3 class="footer__heading">TẢI ỨNG DỤNG SHOPPET NGAY THÔI</h3>
+                  <div class="footer__download">
+                    <img src="./assets/img/sp-code.png" alt="" class="footer__download-qr">
+                    <div class="footer__download-apps">
+                      <a href="#" class="footer__download-app-link">
+                        <img src="./assets/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                      </a>
+                      <a href="#" class="footer__download-app-link">
+                        <img src="./assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </div>
+    <script src="./assets/js/plugins/axios/dist/axios.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src='assets/js/base/slider.js'></script>
+    <script>
+       
+        
+    </script>
+    
+</body>
+</html>

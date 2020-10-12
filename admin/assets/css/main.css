@@ -1,0 +1,152 @@
+#product .side-bar {
+    background-color: #424242;
+    height: 100vh;
+}
+#product .side-bar-logo {
+    border-bottom: 1px solid rgb(134, 134, 134);
+
+}
+#product .side-bar-logo__link {
+    height: 5.6rem;
+    width: 25rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+#product .side-bart-logo__img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+#product .side-bar-logo__name {
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--white-color);
+}
+#product .side-bar-admin {
+    border-bottom: 1px solid rgb(134, 134, 134);
+
+}
+#product .side-bar-admin__link {
+    height: 5.6rem;
+    width: 25rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+#product .side-bar-admin__img {
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+
+}
+#product .side-bar-admin__name {
+     font-size: 1.4rem;
+    font-weight: 100;
+    color: var(--white-color)
+}
+#product .side-bar-menu {
+    color: var(--white-color);
+}
+#product .side-bar-menu h1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+#product .side-bar-menu__nav {
+
+}
+#product .side-bar-menu__list {
+
+}
+#product .side-bar-menu__item {
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+}
+#product .side-bar-menu__item span {
+    margin-right: 1rem;
+}
+/* ===================main================== */
+#product .main {
+    background-color: #f4f6f9;
+    height: 100vh;
+    padding: 0 6rem;
+
+
+}
+#product .main .content {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 201, 201);
+
+}
+#product .main > h1 {
+    height: 7rem;
+    text-align: center;
+    line-height: 7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 3rem;
+}
+#product .main .control {
+    padding: 1rem;
+}
+#product .main button {
+
+}
+#product .main button span {
+
+}
+#product .main .search-group {
+    position: relative;
+}
+#product .main .input-group {
+
+}
+#product .main .input-group input {
+    width: 100%;
+    height: 3.4rem;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(246, 250, 223);
+    text-indent: 2rem;
+    color: var(--text-color);
+    
+}
+#product .main .search-group > span {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    color: rgb(49, 33, 33);
+}
+#product .main .tool {
+    display: flex;
+    justify-content: flex-end;
+}
+#product .main .tool .ti-minus {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+#product .main .tool .ti-minus:hover {
+    background-color: rgb(155, 165, 65);
+}
+#product .main .tool .ti-close {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+#product .main .tool .ti-close:hover {
+    background-color: rgb(255, 73, 73);
+    
+}

@@ -1,0 +1,52 @@
+/* pagination, btn , cart-item, quang cao, animation */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+:root {
+   --blur-text-color:#869099;
+    --text-color: #62696e;
+   --dark-text-color:#363432;
+    --white-color: rgba(255,255,255,.8);
+   --blur-border-color:#b1b1b12b;
+
+}
+* {
+    padding: .0rem;
+    margin: .0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes goTop {
+    from {
+        top: 4rem;
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* btn  */
+.btn {
+    background-color: rgb(0, 175, 0);
+    height: 3.4rem;
+    min-width: 8rem;
+    padding: 1rem 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn--disabled {
+    background-color: #b3afa8;
+}

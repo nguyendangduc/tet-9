@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../assets/font/themify-icons/themify-icons.css">
+    <link
+    rel="apple-touch-icon-precomposed"
+    sizes="144x144"
+    href="img/ico/apple-touch-icon-144-precomposed.png"
+  />
+
+  <link rel="stylesheet" href="../assets/css/grid.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  
+</head>
+<body>
+    <div id="cart">
+        <div class="header">
+            <div class="header-top">
+                <div class="grid">
+                    <div class="header-top-content">
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <a href="" class="contact-item__link">
+                                    <i class="fa fa-phone"></i>
+                                    <span class="contact-item__info">+2 95 01 88 821</span>
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="" class="contact-item__link">
+                                    <i class="fa fa-envelope"></i>
+                                    <span class="contact-item__info"> info@domain.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="socials">
+                            <li class="social">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="grid header-middle-content">
+                    <div class="menu-left">
+                        <div class="header-logo">
+                            <a href="header-logo__link">
+                                <img  class='header-logo__img' src="./assets/img/home/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header-buttons">
+                            <div class="header-btn-group" onclick="dropDown(event)">
+                                <div class="header-btn">
+                                    <span class="header-btn__name">USA</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="">Canada Dollar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Collar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header-btn-group">
+                                <div class="header-btn" onclick="dropDown(event)">
+                                    <span class="header-btn__name">DOLLAR</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </div>   
+                                <div class="sub-menu" >
+                                    <ul>
+                                        <li>
+                                            <a href="">Canada Dollar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Uk</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-right">
+                        <nav class="header-nav">
+                            <ul class="header-menu">
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-user"></i>
+                                        Account
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-star"></i>
+                                        Wishlist
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-crosshairs"></i>
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Cart
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        <i class="fa fa-lock"></i>
+                                        Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="grid header-bottom-content">
+                    <div class="header-main-menu">
+                        <nav class="header-nav">
+                            <ul class="header-menu">
+                                <li class="header-menu-item active">
+                                    <a href="" class="header-menu-item__link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Shop
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chi tiết sản phầm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Mua hàng</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Giỏ hàng</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Giỏ hàng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Block
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chi tiết sản phầm</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        404
+                                    </a>
+                                </li>
+                                <li class="header-menu-item">
+                                    <a href="" class="header-menu-item__link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-search">
+                        <div class="header-search__input-group">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="header-search__btn">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="grid">
+                <div class="cart-header">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="../index.html" class="menu-link btn">Home</a>
+                        </li>
+                        <li class="menu-item">Shopping Cart</li>
+                    </ul>
+                </div>
+
+                <div class="cart-tb">
+                    <div class="cart-tb-header">
+                        <div class="cart-tb-header__list row">
+                            <div class="cart-tb-header__item col l-2">Item</div>
+                            <div class="cart-tb-header__item col l-2 ">Name</div>
+                            <div class="cart-tb-header__item col l-2">Category</div>
+                            <div class="cart-tb-header__item col l-2">Price</div>
+                            <div class="cart-tb-header__item col l-2">Quantity</div>
+                            <div class="cart-tb-header__item col l-1">Total</div>
+                            <div class="col l-1"></div>
+                        </div>
+                    </div>
+                    <div class="cart-tb-body">
+                        <div class="cart-tb-body__list">
+                            
+                            
+                        </div>
+                    </div>
+                    <span class="total-notification"></span>
+                    <button onclick="showModal(event)" class="btn cart-tb-submit">
+                        Đặt hàng
+                    </button>
+                </div>
+                <div class="cart-form-modal">
+                    <div class="cart-form-wrap">
+                    
+                    </div>
+                    <div class="cart-form-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/plugins/js/sweetalert.min.js"></script>
+    <script src="../assets/js/plugins/axios/dist/axios.min.js"></script>
+    <script>
+        const api = 'http://localhost:3000'
+        const cartList = document.querySelector('#cart .main .cart-tb-body__list')
+        const totalCart = document.querySelector('#cart .main .total-notification')
+        let cart = {...JSON.parse(localStorage.getItem('product_cart'))}
+        function renderForm() {
+            const cartForm = document.querySelector('#cart .main .cart-form-wrap')
+            if(JSON.stringify(cart) === '{}') {
+                cartForm.innerHTML = ''
+            } else {
+                cartForm.innerHTML = `
+                    <form class="cart-form">
+                        <h1 class="cart-header">Địa chỉ nhận hàng</h1>
+                            <div class="cart-form-group">
+                                <div class="cart-form__input-group">
+                                    <label class="cart-form__label" for="name">Họ và tên</label>
+                                    <input id='name' type="text" class="cart-form__input">
+                                </div>
+                                <p class="cart-form__err">Tên không hợp lệ</p>
+                            </div>
+                            <div class="cart-form-group">
+                                <div class="cart-form__input-group">
+                                    <label class="cart-form__label" for="phone">Số điện thoại</label>
+                                    <input id='phone' type="number" class="cart-form__input">
+                                </div>
+                                <p class="cart-form__err">Số điện thoại không hợp lệ</p>
+                            </div>
+                            <div class="cart-form-group">
+                                <div class="cart-form__input-group">
+                                    <label class="cart-form__label" for="address">Địa chỉ</label>
+                                    <input id='address' type="text" class="cart-form__input">
+                                </div>
+                                <p class="cart-form__err">Địa chỉ không hợp lệ</p>
+                            </div>
+                        </form>
+                        <div class="btn-control">
+                            <div onclick="submit(event)" class="cart-btn btn">Đặt hàng</div>
+                            <div onclick="cancel(event)" class="cart-btn btn cart-btn--cancel">Quay lại</div>
+                            </div>
+                `
+            }
+        }
+        async function renderCart() {
+            let totalPrice = 0
+            let x = ''
+            for(let id in cart) {
+                const product = await axios.get(`${api}/productAll/${id}`)
+                const cate = await axios.get(`${api}/category/${product.data.category}`)
+                const total = Number(product.data.price.slice(1))*Number(cart[id].quantity)
+                totalPrice += total
+                x+= `<div class="cart-tb-body__item row">
+                    <div class="cart-tb-body__img col l-2">
+                        <img src=${product.data.image} alt="">
+                    </div>
+                    <div class="cart-tb-body__info col l-2">
+                        <p class="cart-tb-body__name">${product.data.name}</p>
+                        <span class="cart-tb-body__id">id:${product.data.id}</span>
+                    </div>
+                    <div class="cart-tb-body__cate col l-2">${cate.data.name}</div>
+                    <div class="cart-tb-body__price col l-2">${product.data.price}</div>
+                    <div class="cart-tb-body__quantity col l-2">
+                        <span class="quantity">${cart[id].quantity}</span>
+                        <button onclick='changeQuantity("${id}","${cart[id].quantity}",1)'>+</button>
+                        <button onclick='changeQuantity("${id}","${cart[id].quantity}",-1)'>-</button>
+                    </div>
+                    <div class="cart-tb-body__total col l-1">${total}</div>
+                    <div class="cart-tb-body__btn col l-1">
+                        <button class="btn delete-item" onclick='deleteItem("${product.data.id}")' >x</button>
+                    </div>
+                </div>` 
+            }
+            cartList.innerHTML = x
+            totalCart.innerHTML = `<span>Total: </span> ${totalPrice} $`
+            renderForm()
+        }   
+        renderCart()
+        async function changeQuantity(id, quantity, param) {
+            if(param === 1) {
+                cart[id].quantity +=1
+            } else {
+                cart[id].quantity -=1
+                if(cart[id].quantity === 0) {
+                    let checkout = await swal("Are you sure you want to delete this product", {
+                        buttons: ["Cancel", true],
+                        });
+                    if(checkout) {
+                        deleteItem(id)
+                    } else cart[id].quantity = 1
+                }
+            }
+            localStorage.setItem('product_cart',JSON.stringify(cart))
+            renderCart()
+        }
+        function deleteItem(id) {
+            delete cart[id]
+            localStorage.setItem('product_cart',JSON.stringify(cart))
+            // window.location.reload()
+            renderCart()
+        }
+
+
+        async function submit(event) {
+            const nameTxt = document.querySelector('#cart .main .cart-form__input#name')
+            const phoneNum = document.querySelector('#cart .main .cart-form__input#phone')
+            const addressTxt = document.querySelector('#cart .main .cart-form__input#address')
+            let auth = true
+            if(nameTxt.value === ''|| nameTxt.value.trim() === '') {
+                nameTxt.parentNode.parentNode.querySelector('.cart-form__err').style.visibility = 'visible'
+                auth = false
+            }
+            if(phoneNum.value === ''|| phoneNum.value.trim() === '') {
+                phoneNum.parentNode.parentNode.querySelector('.cart-form__err').style.visibility = 'visible'
+                auth = false
+            }
+            if(addressTxt.value === ''|| addressTxt.value.trim() === '') {
+                addressTxt.parentNode.parentNode.querySelector('.cart-form__err').style.visibility = 'visible'
+                auth = false
+            }
+            if(auth === true) {
+                let checkout = await swal("Are you sure you want to buy", {
+                    buttons: ["Cancel", true],
+                    });
+                if(checkout) {
+                    let booking = {
+                        state:1,
+                        idUser: 1,
+                        products: cart,
+                        booking : {
+                        Name: nameTxt.value,
+                        Phone: phoneNum.value,
+                        Address: addressTxt.value
+                        } 
+                    }
+                    let data = await axios.post(`${api}/purchase`,booking)         
+                    localStorage.setItem('product_cart',JSON.stringify({}))
+                    window.location.href = './purchase.html'
+                }
+                
+            }
+        }
+        function showModal(event) {
+            if(JSON.stringify(cart) !== '{}') {
+                const modal = document.querySelector('#cart .cart-form-modal')
+                modal.style.display = 'block'
+            }
+            
+        }
+        function cancel(event) {
+            const modal = document.querySelector('#cart .cart-form-modal')
+            modal.style.display = 'none'
+        }
+   </script>
+
+</body>
+</html>
