@@ -1,0 +1,537 @@
+{
+  "slider": [
+    {
+      "id": "2",
+      "name": "Adolphus Monahan",
+      "image": "https://product.hstatic.net/200000000131/product/trang-2_5aed9d6b2a3647948e836469b6dc7700_master.jpg",
+      "link": "https://carole.info",
+      "title": "Giảm giá cực mạnh",
+      "active": "active"
+    },
+    {
+      "id": "3",
+      "name": "Amya Jacobi MD",
+      "image": "https://product.hstatic.net/200000000131/product/xanh-1_fc44b6d7e2964057860cc754d6d36a35_master.jpg",
+      "link": "https://oscar.info",
+      "title": "Mua sắm thông minh",
+      "active": ""
+    }
+  ],
+  "ban_chay": [
+    {
+      "id": "1",
+      "name": "Mèo America",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROOlC_P1KvzgyiCRS-xGfUAivTxf_tsWvpmg&usqp=CAU",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "200000",
+      "category": "2"
+    },
+    {
+      "id": "2",
+      "name": "Mèo gấu bông",
+      "image": "https://achocanh.com/wp-content/uploads/2018/07/nhung-giong-meo-dep-nhat-the-gioi-achocanh-2.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "200000",
+      "category": "2"
+    },
+    {
+      "id": "3",
+      "name": "Mèo sư tử",
+      "image": "https://achocanh.com/wp-content/uploads/2018/06/Achocanh-Meo-maine-coon-giong-meo-khong-lo-vi-dai-nhat-hanh-tinh-6.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "200000",
+      "category": "2"
+    },
+    {
+      "id": "4",
+      "name": "Mèo nhà",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "200000",
+      "category": "2"
+    },
+    {
+      "id": "8",
+      "name": "Chó husky",
+      "image": "https://petmaster.vn/petroom/wp-content/uploads/2020/03/thanh-bieu-cam-cho-husky.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$86",
+      "sale": "45",
+      "category": "2"
+    },
+    {
+      "name": "Chim vàng anh",
+      "image": "https://sudospaces.com/happyvet-com-vn/2019/05/chim-vang-anh-an-gi-3.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$45",
+      "sale": "45",
+      "category": "3",
+      "id": "SUpE2VX"
+    }
+  ],
+  "newProduct": [
+    {
+      "name": "Chó Shiba Inu",
+      "image": "https://kenh14cdn.com/thumb_w/660/2017/2373545713584488009515432111733942250897408n-1514196978625.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$45",
+      "sale": "10%",
+      "category": "1",
+      "id": "7"
+    },
+    {
+      "id": "5",
+      "name": "Mèo Etoxic",
+      "image": "https://www.chotot.com/kinhnghiem/wp-content/uploads/2019/10/meo-munchkin-21-1024x856.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "6",
+      "name": "Mèo nidani",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Norskskogkatt_Evita_3.JPG",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "9",
+      "name": "Mèo simba",
+      "image": "https://cdn1-www.dogtime.com/assets/uploads/gallery/labradoodle-dog-breed-pictures/side-1.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "10",
+      "name": "Chó sad",
+      "image": "https://sieupet.com/sites/default/files/pictures/images/cho-bull-gia-re.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "20%",
+      "category": "1"
+    },
+    {
+      "id": "11",
+      "name": "Chó nhật",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS38MigThVysi49UKBVrVQ3Xvb4WhjQsijdvg&usqp=CAU",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "1"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Chó"
+    },
+    {
+      "id": "2",
+      "name": "Mèo"
+    },
+    {
+      "id": "3",
+      "name": "Chim"
+    }
+  ],
+  "productAll": [
+    {
+      "name": "Chó Shiba Inu",
+      "image": "https://kenh14cdn.com/thumb_w/660/2017/2373545713584488009515432111733942250897408n-1514196978625.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$45",
+      "sale": "10%",
+      "category": "1",
+      "id": "7"
+    },
+    {
+      "id": "5",
+      "name": "Mèo Etoxic",
+      "image": "https://www.chotot.com/kinhnghiem/wp-content/uploads/2019/10/meo-munchkin-21-1024x856.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "6",
+      "name": "Mèo nidani",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Norskskogkatt_Evita_3.JPG",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "9",
+      "name": "Mèo simba",
+      "image": "https://cdn1-www.dogtime.com/assets/uploads/gallery/labradoodle-dog-breed-pictures/side-1.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "2"
+    },
+    {
+      "id": "10",
+      "name": "Chó sad",
+      "image": "https://sieupet.com/sites/default/files/pictures/images/cho-bull-gia-re.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565",
+      "sale": "10%",
+      "category": "1"
+    },
+    {
+      "id": "11",
+      "name": "Chó nhật",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS38MigThVysi49UKBVrVQ3Xvb4WhjQsijdvg&usqp=CAU",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "10%",
+      "category": "1"
+    },
+    {
+      "id": "1",
+      "name": "Mèo America",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROOlC_P1KvzgyiCRS-xGfUAivTxf_tsWvpmg&usqp=CAU",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "0%",
+      "category": "2"
+    },
+    {
+      "id": "2",
+      "name": "Mèo gấu bông",
+      "image": "https://achocanh.com/wp-content/uploads/2018/07/nhung-giong-meo-dep-nhat-the-gioi-achocanh-2.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "0%",
+      "category": "2"
+    },
+    {
+      "id": "3",
+      "name": "Mèo sư tử",
+      "image": "https://achocanh.com/wp-content/uploads/2018/06/Achocanh-Meo-maine-coon-giong-meo-khong-lo-vi-dai-nhat-hanh-tinh-6.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "0%",
+      "category": "2"
+    },
+    {
+      "id": "4",
+      "name": "Mèo nhà",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$565676",
+      "sale": "5%",
+      "category": "2"
+    },
+    {
+      "id": "8",
+      "name": "Chó husky",
+      "image": "https://petmaster.vn/petroom/wp-content/uploads/2020/03/thanh-bieu-cam-cho-husky.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$86",
+      "sale": "5%",
+      "category": "2"
+    },
+    {
+      "name": "Chim vàng anh",
+      "image": "https://sudospaces.com/happyvet-com-vn/2019/05/chim-vang-anh-an-gi-3.jpg",
+      "createAt": "2020-05-06T18:48:45.884Z",
+      "price": "$45",
+      "sale": "9%",
+      "category": "3",
+      "id": "SUpE2VX"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "image": "https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg",
+      "fullName": "Nguyen Van A",
+      "age": "12",
+      "email": "nguyendangduc2231999@gmail.com",
+      "userName": "nguyendangduc",
+      "password": "1"
+    }
+  ],
+  "purchase": [
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "2": {
+          "quantity": 3
+        },
+        "10": {
+          "quantity": 4
+        },
+        "11": {
+          "quantity": 3
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 1
+    },
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 3
+    },
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 4
+    },
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 5
+    },
+    {
+      "state": 4,
+      "idUser": 1,
+      "products": {
+        "6": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 6
+    },
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "6": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "1"
+      },
+      "id": 7
+    },
+    {
+      "state": 5,
+      "idUser": 1,
+      "products": {
+        "6": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "1"
+      },
+      "id": 8
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "đ",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 9
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "nguyen dang duc",
+        "Phone": "1",
+        "Address": "1"
+      },
+      "id": 10
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "6": {
+          "quantity": 4
+        }
+      },
+      "booking": {
+        "Name": "đ",
+        "Phone": "11",
+        "Address": "11"
+      },
+      "id": 11
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "8": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "1"
+      },
+      "id": 12
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "1": {
+          "quantity": 5
+        },
+        "6": {
+          "quantity": 4
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 13
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "6": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 14
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 7
+        }
+      },
+      "booking": {
+        "Name": "nguyen dang duc",
+        "Phone": "9",
+        "Address": "1"
+      },
+      "id": 15
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 16
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "5": {
+          "quantity": 1
+        },
+        "11": {
+          "quantity": 1
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "11"
+      },
+      "id": 17
+    },
+    {
+      "state": 1,
+      "idUser": 1,
+      "products": {
+        "7": {
+          "quantity": 2
+        }
+      },
+      "booking": {
+        "Name": "1",
+        "Phone": "1",
+        "Address": "1"
+      },
+      "id": 18
+    }
+  ],
+  "receivingInfo": []
+}
